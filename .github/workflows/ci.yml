@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - master
+      - docs_test
     tags: '*'
   pull_request:
 
