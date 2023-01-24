@@ -15,8 +15,8 @@ using ThreadSafeDicts
 using HTTP
 using ImageMagick
 
-include("for_interpolations.jl")
-using Tyler.ForInterpolations: tile2positions, Interpolator
+#include("for_interpolations.jl")
+#using Tyler.ForInterpolations: tile2positions, Interpolator
 
 const TileImage = Matrix{RGB{N0f8}}
 
